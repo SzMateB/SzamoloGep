@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+#szoveg {
+    background-color: white;
+    margin: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+.gombok {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gombok button {
+    height: 60px;
+    font-size: 24px;
+}
+
+#logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
